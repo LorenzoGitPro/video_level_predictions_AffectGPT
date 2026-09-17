@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository provides the Pytorch code used to evaluate a multimodal large language model (MLLM), **AffectGPT**, in a zero-shot setting for **Ambivalence/Hesitancy (AH) recognition in videos**, on the **BAH dataset** for digital behavioural change. Rather than training a task-specific classifier, we prompt AffectGPT — which combines a large language model backbone with visual and audio encoders — directly on BAH videos to assess how well an off-the-shelf, general-purpose emotion/affect MLLM can recognize ambivalence and hesitancy without any BAH-specific fine-tuning.
+This repository provides the Pytorch code used to evaluate a multimodal large language model (MLLM), **AffectGPT**, in a zero-shot setting for **Ambivalence/Hesitancy (AH) recognition in videos**, on the **BAH dataset** for digital behavioural change. Rather than training a task-specific classifier, we prompt AffectGPT, which combines a large language model backbone with visual and audio encoders, directly on BAH videos to assess how well an off-the-shelf, general-purpose emotion/affect MLLM can recognize ambivalence and hesitancy without any BAH-specific fine-tuning.
 
 The pipeline covers preparing the BAH data for AffectGPT's expected input format, running zero-shot inference over the videos, and computing the resulting classification results, so that they can be compared against dedicated BAH baselines and used in downstream analyses of digital health intervention systems.
 
